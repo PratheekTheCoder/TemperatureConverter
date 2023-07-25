@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,300;1,400&display=swap');
+body{
+margin: 0px;
+padding: 0px;
+height: 100vh;
+width: 100%;
+
+background-color:#5DA3FA;
+} 
+.head h1 {
+margin: 0px;
+text-align: center;
+padding: 10px 0px;
+font-size: 40px;
+line-height: 50px;
+font-weight:600;
+font-family: 'Poppins', sans-serif;
+}
+h4 {
+margin: 0px;
+font-size:30px;
+font-weight: 600;
+color:#000;
+font-family: 'Poppins', sans-serif;
+}
+.wrapper {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+padding: 20px;
+}
+.celsius-input {
+padding-right:20px;
+}
+
+input{
+color:#000;
+font-family: 'Poppins', sans-serif;
+padding: 10px;
+border-radius: 5px;
+outline: none;
+border: none;
+font-size: 22px;
+font-weight: 600;
+line-height: 32px;
+}
+
+/* media query */
+@media(max-width:767px){
+.celsius-input {
+flex: 0 100%;
+text-align: center;
+padding-bottom: 30px;
+padding-right: 0px!important;
+}
+.fahrenheit-input {
+flex: 0 100%;
+text-align: center;
+}
+.head h1{
+font-size: 35px!important;
+line-height: 45px!important;
+}
+.head{
+padding: 20px 0px!important;
+}
+}
